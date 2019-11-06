@@ -1,8 +1,14 @@
+body {
+    background-color: #E8F5EB;
+}
+html {
+    scroll-behavior: smooth !important;
+}
 #title {
     background-image: url(assets/green-leaf-plant-808510.jpg);
     background-size: cover;
     padding-top: 150px;
-    padding-bottom: 150px;
+    padding-bottom: 305px;
     color: white;
     font-size: 100px;
     font-family: 'Playfair Display', serif;
@@ -10,9 +16,67 @@
     text-shadow: -2px -2px 8px #000000;
     align-content: center;
 }
+.titletext{
+    padding-top: 120px;
+}
 .navbar{
     background-color: #E0E0E0;
-    display: inline-block;
-    float: none;
-    text-align: center;
 }
+.navbar-nav{
+    display: flex;
+    position: relative;
+    left: 50%;
+    transform: translatex(-50%);
+    justify-content: space-between;
+}
+.nav-item{
+    padding-left: 60px;
+    padding-right: 60px;
+}
+.nav-link{
+    color: #545454;
+    font-family: 'Lato', sans-serif;
+    font-size: 18px;
+}
+.nav-link:hover{
+    color: #A5CAA9;
+    background-color: #545454;
+    border-radius: 5px;
+    font-family: 'Lato', sans-serif;
+    font-size: 18px;
+    transition: all 0.2s ease-in-out;
+
+}
+#functionstitle{
+    font-family: 'Playfair Display', serif;
+    font-size: 30px;
+}
+#functions{
+    font-family: 'Lato', sans-serif;
+    text-align: center;
+    padding-top: 150px;
+    padding-bottom: 290px;
+}
+#objectstitle{
+    font-family: 'Playfair Display', serif;
+    font-size: 30px;
+}
+#objects{
+    font-family: 'Lato', sans-serif;
+    text-align: center;
+    padding-top: 150px;
+    padding-bottom: 600px;
+}
+#arraystitle{
+    font-family: 'Playfair Display', serif;
+    font-size: 30px;
+}
+#arrays{
+    font-family: 'Lato', sans-serif;
+    text-align: center;
+    padding-bottom: 420px;
+}
+.footer {
+    font-family: 'Lato', sans-serif;
+    font-size: 15px;
+    text-align: center;
